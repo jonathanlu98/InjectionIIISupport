@@ -21,7 +21,7 @@
     
     self.view.backgroundColor = UIColor.whiteColor;
     
-    self.customView = ({ //不要使用懒加载的方式，可以使用这种
+    self.customView = ({ //不要使用懒加载的方式，可以使用这种方式来写
         UIView * view = [[UIView alloc] init];
         view.backgroundColor = UIColor.blueColor;
         view;
