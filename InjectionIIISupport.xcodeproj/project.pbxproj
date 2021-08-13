@@ -17,6 +17,13 @@
 		474EB80826C66D8100E11418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474EB80726C66D8100E11418 /* Assets.xcassets */; };
 		474EB80B26C66D8100E11418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474EB80926C66D8100E11418 /* LaunchScreen.storyboard */; };
 		474EB80E26C66D8100E11418 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 474EB80D26C66D8100E11418 /* main.m */; };
+		474EB89B26C6954C00E11418 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474EB88B26C6954C00E11418 /* MainViewController.m */; };
+		474EB89C26C6954C00E11418 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 474EB88E26C6954C00E11418 /* TestModel.m */; };
+		474EB89D26C6954C00E11418 /* CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 474EB89226C6954C00E11418 /* CustomLabel.m */; };
+		474EB89E26C6954C00E11418 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 474EB89326C6954C00E11418 /* MainTableViewCell.m */; };
+		474EB89F26C6954C00E11418 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474EB89526C6954C00E11418 /* RootViewController.m */; };
+		474EB8A026C6954C00E11418 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 474EB89726C6954C00E11418 /* BaseTableViewCell.m */; };
+		474EB8A126C6954C00E11418 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474EB89826C6954C00E11418 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +53,20 @@
 		474EB80A26C66D8100E11418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		474EB80C26C66D8100E11418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		474EB80D26C66D8100E11418 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		474EB88926C6954C00E11418 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		474EB88B26C6954C00E11418 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		474EB88D26C6954C00E11418 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		474EB88E26C6954C00E11418 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		474EB89026C6954C00E11418 /* CustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLabel.h; sourceTree = "<group>"; };
+		474EB89126C6954C00E11418 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		474EB89226C6954C00E11418 /* CustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLabel.m; sourceTree = "<group>"; };
+		474EB89326C6954C00E11418 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		474EB89426C6954C00E11418 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		474EB89526C6954C00E11418 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		474EB89726C6954C00E11418 /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		474EB89826C6954C00E11418 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		474EB89926C6954C00E11418 /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		474EB89A26C6954C00E11418 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		47E2CCBADC91AF25F2B00DA9 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F729364B9EA43D017D1357 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		85E0353D6FEC75F5D80F87DF /* Pods-InjectionIIISupport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InjectionIIISupport.debug.xcconfig"; path = "Target Support Files/Pods-InjectionIIISupport/Pods-InjectionIIISupport.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +131,10 @@
 				474EB7FC26C66D8000E11418 /* AppDelegate.m */,
 				474EB80126C66D8000E11418 /* ViewController.h */,
 				474EB80226C66D8000E11418 /* ViewController.m */,
+				474EB88926C6954C00E11418 /* RootViewController.h */,
+				474EB89526C6954C00E11418 /* RootViewController.m */,
+				474EB88A26C6954C00E11418 /* Main */,
+				474EB89626C6954C00E11418 /* Base */,
 				474EB80426C66D8000E11418 /* Main.storyboard */,
 				474EB80726C66D8100E11418 /* Assets.xcassets */,
 				474EB80926C66D8100E11418 /* LaunchScreen.storyboard */,
@@ -117,6 +142,48 @@
 				474EB80D26C66D8100E11418 /* main.m */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		474EB88A26C6954C00E11418 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				474EB89426C6954C00E11418 /* MainViewController.h */,
+				474EB88B26C6954C00E11418 /* MainViewController.m */,
+				474EB88C26C6954C00E11418 /* Model */,
+				474EB88F26C6954C00E11418 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		474EB88C26C6954C00E11418 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				474EB88D26C6954C00E11418 /* TestModel.h */,
+				474EB88E26C6954C00E11418 /* TestModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		474EB88F26C6954C00E11418 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				474EB89026C6954C00E11418 /* CustomLabel.h */,
+				474EB89226C6954C00E11418 /* CustomLabel.m */,
+				474EB89126C6954C00E11418 /* MainTableViewCell.h */,
+				474EB89326C6954C00E11418 /* MainTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		474EB89626C6954C00E11418 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				474EB89926C6954C00E11418 /* BaseTableViewCell.h */,
+				474EB89726C6954C00E11418 /* BaseTableViewCell.m */,
+				474EB89A26C6954C00E11418 /* BaseViewController.h */,
+				474EB89826C6954C00E11418 /* BaseViewController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		4E9461E3A69249A7623061B8 /* Pods */ = {
@@ -286,9 +353,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				474EB8A026C6954C00E11418 /* BaseTableViewCell.m in Sources */,
+				474EB8A126C6954C00E11418 /* BaseViewController.m in Sources */,
 				474EB80326C66D8000E11418 /* ViewController.m in Sources */,
+				474EB89C26C6954C00E11418 /* TestModel.m in Sources */,
+				474EB89F26C6954C00E11418 /* RootViewController.m in Sources */,
+				474EB89E26C6954C00E11418 /* MainTableViewCell.m in Sources */,
 				474EB7FD26C66D8000E11418 /* AppDelegate.m in Sources */,
 				474EB80E26C66D8100E11418 /* main.m in Sources */,
+				474EB89B26C6954C00E11418 /* MainViewController.m in Sources */,
+				474EB89D26C6954C00E11418 /* CustomLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
