@@ -104,9 +104,7 @@ void injectedObj(id self, SEL _cmd) {
      */
 }
 
-/**
- 获取view 所属的vc，失败为nil
- */
+/// 获取view 所属的vc，失败为nil
 + (UIViewController *)viewControllerSupportView:(UIView *)view {
     for (UIView * next = [view superview]; next; next = next.superview) {
         UIResponder *nextResponder = [next nextResponder];
