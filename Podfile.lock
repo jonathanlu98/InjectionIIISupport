@@ -1,8 +1,14 @@
 PODS:
   - InjectionIIISupport (1.0.0)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - InjectionIIISupport (from `./`)
+  - Masonry (~> 1.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   InjectionIIISupport:
@@ -10,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   InjectionIIISupport: 6d5a75ebf9424a6aef7f38d13b0b499066dfb24a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: ed9a7f73e312ac409aa7252d1436681488e1942c
+PODFILE CHECKSUM: 621596bcb0e72cbf898f6a47215e442c9d59842f
 
 COCOAPODS: 1.10.1
