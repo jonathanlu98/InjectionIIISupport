@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'InjectionIIISupport'
-  s.version          = '1.1.0'
+  s.version          = '1.2.0'
   s.summary          = 'InjectionIIISupport'
   s.description      = <<-DESC
                           InjectionIIISupport
@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://www.baidu.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zsh' => '1051422138@qq.com' }
-  s.source           = { :git => 'https://gitee.com/githubsh/InjectionIIISupport', :tag => s.version.to_s }
+  # s.source           = { :git => 'https://gitee.com/githubsh/InjectionIIISupport', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/githubsh/InjectionIIISupport', :tag => s.version.to_s }
   
   s.ios.deployment_target = '9.0'
 

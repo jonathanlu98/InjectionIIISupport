@@ -1,5 +1,5 @@
 PODS:
-  - InjectionIIISupport (1.0.0)
+  - InjectionIIISupport (1.1.0)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  InjectionIIISupport: 6d5a75ebf9424a6aef7f38d13b0b499066dfb24a
+  InjectionIIISupport: 43b131afa22d4892daa783e4668538c5877fa043
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 2c005051fcf4d2c346608172bbf65abec90dea3a
