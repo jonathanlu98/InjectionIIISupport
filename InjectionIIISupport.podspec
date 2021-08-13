@@ -1,12 +1,14 @@
 Pod::Spec.new do |s|
   s.name             = 'InjectionIIISupport'
-  s.version          = '1.2.1'
-  s.summary          = 'InjectionIIISupport'
+  s.version          = '1.2.2'
+  s.summary          = 'InjectionIIISupport is a tool for InjectionIII'
   s.description      = <<-DESC
-                          InjectionIIISupport
-                          InjectionIIISupport
+                          You can download the macOS app InjectionIII from the macOS AppStore,
+                          use this tool by pod,
+                          No need to write any code,
+                          Happy to enjoy the hot reload to dynamic develop UI.
                           DESC
-  s.homepage         = 'http://www.baidu.com'
+  s.homepage         = 'https://github.com/githubsh/InjectionIIISupport'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zsh' => '1051422138@qq.com' }
   # s.source           = { :git => 'https://gitee.com/githubsh/InjectionIIISupport.git', :tag => s.version.to_s }

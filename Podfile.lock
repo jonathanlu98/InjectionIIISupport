@@ -1,5 +1,5 @@
 PODS:
-  - InjectionIIISupport (1.2.1)
+  - InjectionIIISupport (1.2.2)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  InjectionIIISupport: 4ee50c573998ddb00d18588782fc6feab8e586fd
+  InjectionIIISupport: e3363c7b8ed64afa8b1fb174eb20fc39a773af6c
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 0556911b407ea110f5dfffde28941e66214a5c1e
+PODFILE CHECKSUM: d6a964b93f9c9c101537194872d905e96669c52d
 
 COCOAPODS: 1.11.0.beta.2
