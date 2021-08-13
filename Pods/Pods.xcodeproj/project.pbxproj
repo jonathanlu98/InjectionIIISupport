@@ -39,22 +39,22 @@
 		3B6C1481EC495ED643272AC3DB6F5D0F /* InjectionIIISupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InjectionIIISupport.h; path = InjectionIIISupport/InjectionIIISupport.h; sourceTree = "<group>"; };
 		4079308A83B8BB898318B549B1F356A2 /* Pods-InjectionIIISupport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InjectionIIISupport-dummy.m"; sourceTree = "<group>"; };
 		419F91AF7033968F506EEAD304F98BFC /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		41B27D552FDC2D2C7A565C7193DD49D7 /* InjectionIIISupport.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = InjectionIIISupport.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		425FDBE0665BD2990B687F6846387A6F /* Pods-InjectionIIISupport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InjectionIIISupport.release.xcconfig"; sourceTree = "<group>"; };
-		5B6E101BA6E04FFC3726D2F57FD180A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		64BE1264BE89B1C934E936987AC762C4 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6FBD3D231E85980678DA5C063AF8D867 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7443B2873657DC540F72BB5C8550CD5A /* InjectionIIISupport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InjectionIIISupport.debug.xcconfig; sourceTree = "<group>"; };
 		8543901F1AE3AA13E620978D03EA4EED /* Pods-InjectionIIISupport-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InjectionIIISupport-acknowledgements.plist"; sourceTree = "<group>"; };
 		9A82F5A54D3F63744FC29329184E0063 /* InjectionIIISupport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InjectionIIISupport-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B356BEA4493082E7CDBBAD1F80F99C75 /* README.en.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.en.md; sourceTree = "<group>"; };
 		B51DA94C39B918290B9B858C01A497B0 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		C721EDC592717247F11360D27B4783A1 /* InjectionIIISupport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InjectionIIISupport.release.xcconfig; sourceTree = "<group>"; };
 		C9083D337B2664C5FA3E210EAF09C32F /* Pods-InjectionIIISupport-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InjectionIIISupport-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CA6C64F210BC7B66DE9067FB3AFF8C0F /* InjectionIIISupport.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = InjectionIIISupport.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CEA4D8419647FF155999C127DF23204E /* InjectionIIISupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InjectionIIISupport.m; path = InjectionIIISupport/InjectionIIISupport.m; sourceTree = "<group>"; };
 		D43105A15D86133A23C2E4B1F333EF41 /* Pods-InjectionIIISupport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InjectionIIISupport.debug.xcconfig"; sourceTree = "<group>"; };
+		EB402F4427DA4448058D6982A5BA3677 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F4472D57BF88DAF0D5D51F268D7CF1BD /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		F785D53518FA8AC41845AA35C7AB725C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 			children = (
 				3B6C1481EC495ED643272AC3DB6F5D0F /* InjectionIIISupport.h */,
 				CEA4D8419647FF155999C127DF23204E /* InjectionIIISupport.m */,
-				9460EEEF346674ABD86D690EEE2D8F32 /* Pod */,
+				5DD2A99C1A3D5A70A55CC6D43FB9C168 /* Pod */,
 				EA9E3BFD0CDD46CF6EE32FAC3BAF6D0C /* Support Files */,
 			);
 			name = InjectionIIISupport;
@@ -107,6 +107,16 @@
 			path = "Target Support Files/Pods-InjectionIIISupport";
 			sourceTree = "<group>";
 		};
+		5DD2A99C1A3D5A70A55CC6D43FB9C168 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				41B27D552FDC2D2C7A565C7193DD49D7 /* InjectionIIISupport.podspec */,
+				F785D53518FA8AC41845AA35C7AB725C /* LICENSE */,
+				EB402F4427DA4448058D6982A5BA3677 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		74658B4D9EDF332F7154B1FCE958C3A3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,16 +124,6 @@
 				307F59D95FFF99A8372668757A298A0A /* Pods-InjectionIIISupport */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9460EEEF346674ABD86D690EEE2D8F32 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CA6C64F210BC7B66DE9067FB3AFF8C0F /* InjectionIIISupport.podspec */,
-				5B6E101BA6E04FFC3726D2F57FD180A7 /* LICENSE */,
-				B356BEA4493082E7CDBBAD1F80F99C75 /* README.en.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		A5F1CA102A3117893FDDC6BB3C51857C /* Products */ = {
