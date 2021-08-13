@@ -4,7 +4,7 @@
 
 2. 项目中的Podfile 引入即可使用，无需在项目中写入任何代码。<br />
 ```Ruby
-pod 'InjectionIIISupport', '~> 1.2.1', :configurations => 'Debug' # 只在Debug环境下起作用
+pod 'InjectionIIISupport', '~> 1.2.2', :configurations => 'Debug' # 只在Debug环境下起作用
 ```
 3. InjectionIII 菜单 Open Project 选择当前的工程目录。
 
