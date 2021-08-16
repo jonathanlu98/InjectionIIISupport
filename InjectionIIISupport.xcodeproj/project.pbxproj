@@ -129,10 +129,10 @@
 			children = (
 				474EB7FB26C66D8000E11418 /* AppDelegate.h */,
 				474EB7FC26C66D8000E11418 /* AppDelegate.m */,
-				474EB80126C66D8000E11418 /* ViewController.h */,
-				474EB80226C66D8000E11418 /* ViewController.m */,
 				474EB88926C6954C00E11418 /* RootViewController.h */,
 				474EB89526C6954C00E11418 /* RootViewController.m */,
+				474EB80126C66D8000E11418 /* ViewController.h */,
+				474EB80226C66D8000E11418 /* ViewController.m */,
 				474EB88A26C6954C00E11418 /* Main */,
 				474EB89626C6954C00E11418 /* Base */,
 				474EB80426C66D8000E11418 /* Main.storyboard */,

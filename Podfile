@@ -2,8 +2,9 @@ platform :ios, '9.0'
 
 def module_Pods
   pod 'InjectionIIISupport', :path => "./", :configurations => 'Debug' # 只在Debug环境下起作用
-
   pod 'Masonry', '~> 1.1.0'
+  pod 'ExampleLib', :path => "./Components/ExampleLib"
+
 end
 
 target 'InjectionIIISupport' do

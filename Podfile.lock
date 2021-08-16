@@ -1,0 +1,28 @@
+PODS:
+  - ExampleLib (1.0.0)
+  - InjectionIIISupport (1.2.2)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - ExampleLib (from `./Components/ExampleLib`)
+  - InjectionIIISupport (from `./`)
+  - Masonry (~> 1.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  ExampleLib:
+    :path: "./Components/ExampleLib"
+  InjectionIIISupport:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  ExampleLib: b18af75f3990e3de0938bf3b88d15f926640f6c7
+  InjectionIIISupport: e3363c7b8ed64afa8b1fb174eb20fc39a773af6c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 8f55eba7f51333599715c2ca25c6508ff06cffb7
+
+COCOAPODS: 1.11.0.beta.2

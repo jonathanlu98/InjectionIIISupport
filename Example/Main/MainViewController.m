@@ -9,6 +9,8 @@
 #import <Masonry/Masonry.h> //第三方库 检查一下 Other Linker Flags: $(inherited)
 #import "MainTableViewCell.h"
 #import "TestModel.h"
+#import <ExampleLib/ExampleLibController.h>
+
 
 @interface MainViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -29,6 +31,8 @@
     self.view.backgroundColor = [UIColor whiteColor];
     [self createUI];
     [self layout];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"静态库" style:UIBarButtonItemStylePlain target:self action:@selector(rightClick)];
 }
 
 - (TestModel *)testModel {
@@ -135,5 +139,13 @@
     }
     return cell;
 }
+
+
+
+- (void)rightClick {
+    ExampleLibController * vc = [[ExampleLibController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 
 @end
