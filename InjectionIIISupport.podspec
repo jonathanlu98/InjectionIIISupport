@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'InjectionIIISupport'
-  s.version          = '1.2.2'
+  s.version          = '1.2.3'
   s.summary          = 'InjectionIIISupport is a tool for InjectionIII'
   s.description      = <<-DESC
                           You can download the macOS app InjectionIII from the macOS AppStore,
