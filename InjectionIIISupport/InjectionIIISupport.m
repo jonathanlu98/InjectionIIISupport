@@ -42,13 +42,26 @@ void injectedObj(id self, SEL _cmd) {
         
         // support lazy property
         unsigned int propertyCount;
+        unsigned int methodCount;
+        Method * methods = class_copyMethodList(vc.class, &methodCount);
         objc_property_t * propertys = class_copyPropertyList(vc.class, &propertyCount);
+        NSMutableArray<NSString *> *methodStrs = [NSMutableArray array];
+        for (int i = 0; i < methodCount; i++) {
+            [methodStrs addObject:NSStringFromSelector(method_getName(methods[i]))];
+        }
         for (int i = 0; i < propertyCount; i++) {
             objc_property_t property = propertys[i];
             const char * cPropertyName = property_getName(property);
             NSString * propertyName = [NSString stringWithUTF8String:cPropertyName];
             id propertyValue = [vc valueForKey:propertyName];
-            if ([propertyValue isKindOfClass:NSObject.class]) {
+            __block BOOL haveSetMethod = NO;
+            [methodStrs enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+                if ([obj containsString:propertyName] && [[obj substringToIndex:2] isEqualToString:@"set"]) {
+                    haveSetMethod = YES;
+                    *stop = YES;
+                }
+            }];
+            if ([propertyValue isKindOfClass:NSObject.class] && haveSetMethod) {
                 NSObject * obj = (NSObject *)obj;
                 @try {
                     [vc setValue:nil forKey:propertyName];
