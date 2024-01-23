@@ -17,9 +17,13 @@
     __block id observer =
     [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationDidFinishLaunchingNotification object:nil queue:nil usingBlock:^(NSNotification * _Nonnull note) {
         
-        // iOS
-        [[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle"] load];//旧版本: /Applications/InjectionIII.app/Contents/Resources/iOSInjection10.bundle
-        
+        // iOS  优先加载内置的
+        NSString *pathInProject = [NSBundle.mainBundle pathForResource:@"iOSInjection" ofType:@"bundle"];
+        if (pathInProject.length > 0) {
+            [[NSBundle bundleWithPath:pathInProject] load];
+        } else {
+            [[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle"] load];//旧版本: /Applications/InjectionIII.app/Contents/Resources/iOSInjection10.bundle
+        }
         // tvOS
         //[[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/tvOSInjection.bundle"] load];
         
