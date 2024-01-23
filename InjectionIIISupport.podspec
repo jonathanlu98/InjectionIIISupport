@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'InjectionIIISupport'
-  s.version          = '1.2.4'
+  s.version          = '1.2.5'
   s.summary          = 'InjectionIIISupport is a tool for InjectionIII'
   s.description      = <<-DESC
                           You can download the macOS app InjectionIII from the macOS AppStore,
@@ -21,4 +21,8 @@ Pod::Spec.new do |s|
   s.source_files = 'InjectionIIISupport/**/*.{h,m}'
   s.public_header_files = 'InjectionIIISupport/**.h'
 
+  s.user_target_xcconfig = { 
+    'OTHER_LDFLAGS' => '$(inherited) -Xlinker -interposable'
+  }
+  
 end
